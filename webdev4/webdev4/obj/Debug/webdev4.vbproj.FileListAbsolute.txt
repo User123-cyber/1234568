@@ -1,2 +1,0 @@
-C:\Users\User\source\repos\webdev4\webdev4\obj\Debug\webdev4.vbproj.AssemblyReference.cache
-C:\Users\User\source\repos\webdev4\webdev4\obj\Debug\webdev4.vbproj.CoreCompileInputs.cache
