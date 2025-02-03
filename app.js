@@ -13,7 +13,12 @@ document.getElementById('clearBtn').addEventListener('click', function() {
     document.getElementById('result').value = '';
 });
 
-// Exit button functionality
-document.getElementById('exitBtn').addEventListener('click', function() {
-    alert('Please close the browser tab manually.');
-});
+    // Exit button functionality
+        document.getElementById('exitBtn').addEventListener('click', function() {
+            // Note: window.close() typically only works for windows opened by scripts
+            try {
+                window.close();
+            } catch (e) {
+                alert('Exit button clicked - this would close the window in a desktop application');
+            }
+        });
