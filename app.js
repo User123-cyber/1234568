@@ -15,7 +15,5 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 
 // Exit button functionality
 document.getElementById('exitBtn').addEventListener('click', function() {
-    if (confirm("Do you really want to exit?")) {
-        window.location.href = ""; // Redirect to another page
-    }
+    alert('Please close the browser tab manually.');
 });
