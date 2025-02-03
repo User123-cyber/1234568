@@ -16,6 +16,6 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 // Exit button functionality
 document.getElementById('exitBtn').addEventListener('click', function() {
     if (confirm("Do you really want to exit?")) {
-        window.location.href = "https://www.example.com"; // Redirect to another page
+        window.location.href = ""; // Redirect to another page
     }
 });
