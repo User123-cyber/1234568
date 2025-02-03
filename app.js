@@ -15,10 +15,7 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 
 // Exit button functionality
 document.getElementById('exitBtn').addEventListener('click', function() {
-    // Try to close the window
-    try {
-        window.close();
-    } catch (e) {
-        alert('Exit button clicked - this would close the window in a desktop application.');
+    if (confirm("Do you really want to exit?")) {
+        window.location.href = "https://www.example.com"; // Redirect to another page
     }
 });
